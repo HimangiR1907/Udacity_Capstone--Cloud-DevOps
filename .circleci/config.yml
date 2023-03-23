@@ -233,11 +233,11 @@ workflows:
             - test-build
           filters:
             branches:
-              only: [ master ]
+              only: [ circleci-project-setup ]
       - deploy-infrastructure:
           filters:
             branches:
-              only: [ master ]
+              only: [ circleci-project-setup ]
       - configure-infrastructure:
           requires:
             - deploy-infrastructure
