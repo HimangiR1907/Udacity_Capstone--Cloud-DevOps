@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   init:
     docker:
-      - image: circleci/3.7.3-stretch
+      - image: circleci/3.7
     steps:
       - checkout
       - setup_remote_docker:
