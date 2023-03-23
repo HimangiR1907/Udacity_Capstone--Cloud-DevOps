@@ -1,6 +1,5 @@
 Description: >
-  Felix Lutze / Capstone Project
-  Creates an Amazon EKS Cluster
+  Creates  EKS Cluster
 Parameters:
   EnvironmentName:
     Description: An Environment name that will be prefixed to resources
