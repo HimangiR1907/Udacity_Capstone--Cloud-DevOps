@@ -29,3 +29,5 @@ kubectl get services
 NAME               TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)    AGE
 capstone-project   ClusterIP   10.100.5.220   <none>        8080/TCP   48m
 kubernetes         ClusterIP   10.100.0.1     <none>        443/TCP    69m
+
+    
