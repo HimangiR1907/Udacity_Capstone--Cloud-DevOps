@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: capstone-project
-        image: ahmedo42/capstone-project
+        image: $DOCKERHUB_USERNAME/$DOCKER_IMAGE_NAME
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
